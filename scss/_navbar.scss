@@ -7,7 +7,7 @@
     .container {
       background: url('../img/score.png') no-repeat bottom left;
       background-size: 125px;
-      background-position: 0 30px;
+      background-position: -20px 30px;
     }
     .navbar-brand {
         color: black;
@@ -28,7 +28,7 @@
                 font-size: 11px;
                 @include alt-font;
                 &.active {
-                    color: $theme-primary !important;
+                    color: lighten(black, 70%) !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -47,17 +47,20 @@
     @media (min-width: 992px) {
         border-color: transparent;
         background-color: transparent;
+        .container {
+          background-position: 0 30px;
+        }
         .navbar-brand {
-            color: $theme-primary;
+            color: white;
             @include heading-font;
             &:hover,
             &:focus {
-                color: darken($theme-primary, 10%);
+                color: $theme-primary;
             }
         }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
-            color: fade-out(white, .3);
+            color: white;
             &:hover {
                 color: white;
             }
@@ -76,7 +79,7 @@
             .navbar-nav > li > a:focus {
                 color: $gray-darker;
                 &:hover {
-                    color: $theme-primary;
+                    color: lighten(black, 10%);
                 }
             }
         }

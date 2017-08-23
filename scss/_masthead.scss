@@ -11,6 +11,7 @@ header.masthead {
     background: url('../img/3.jpg'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: url('../img/3.jpg'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background-size: cover;
+    background-position: 0 50px;
     .header-content {
         max-width: 500px;
         margin-bottom: 100px;
@@ -30,9 +31,10 @@ header.masthead {
     }
     @media (min-width: 992px) {
         height: 100vh;
-        min-height: 775px;
+        min-height: 600px;
         padding-top: 0;
         padding-bottom: 0;
+        background-position: inherit;
         .header-content {
             margin-bottom: 0;
 
