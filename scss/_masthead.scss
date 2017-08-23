@@ -10,6 +10,7 @@ header.masthead {
     background: url('../img/3.jpg'), $theme-secondary;
     background: url('../img/3.jpg'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: url('../img/3.jpg'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background-size: cover;
     .header-content {
         max-width: 500px;
         margin-bottom: 100px;

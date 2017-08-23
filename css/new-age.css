@@ -127,7 +127,8 @@ header.masthead {
   color: white;
   background: url("../img/3.jpg"), #ffffff;
   background: url("../img/3.jpg"), -webkit-linear-gradient(to left, #ffffff, #dddddd);
-  background: url("../img/3.jpg"), linear-gradient(to left, #ffffff, #dddddd); }
+  background: url("../img/3.jpg"), linear-gradient(to left, #ffffff, #dddddd);
+  background-size: cover; }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
