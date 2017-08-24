@@ -49,12 +49,6 @@ section {
     font-size: 50px; }
 
 /* buttons */
-.btn {
-  margin: 4px; }
-
-.btn-xs {
-  font-weight: 300; }
-
 .btn-hot {
   color: #fff;
   background-color: #db5566;
@@ -228,7 +222,7 @@ header.masthead {
 
 section.download {
   position: relative;
-  padding: 150px 0; }
+  padding: 75px 0; }
   section.download h2 {
     font-size: 50px;
     margin-top: 0; }
@@ -383,7 +377,7 @@ footer {
   border: 1px solid;
   border-color: white; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: white;
+    color: black;
     border-color: #f9fbfc;
     background-color: #f9fbfc; }
 
