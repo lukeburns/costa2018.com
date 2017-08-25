@@ -188,9 +188,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/3.jpg"), #f7eff3;
-  background: url("../img/3.jpg"), -webkit-linear-gradient(to left, #f7eff3, #dddddd);
-  background: url("../img/3.jpg"), linear-gradient(to left, #f7eff3, #dddddd);
+  background: url("../img/5.jpg"), #f7eff3;
+  background: url("../img/5.jpg"), -webkit-linear-gradient(to left, #f7eff3, #dddddd);
+  background: url("../img/5.jpg"), linear-gradient(to left, #f7eff3, #dddddd);
   background-size: cover;
   background-position: 0 50px; }
   header.masthead .header-content {
@@ -222,7 +222,7 @@ header.masthead {
 
 section.download {
   position: relative;
-  padding: 75px 0; }
+  padding: 80px 0; }
   section.download h2 {
     font-size: 50px;
     margin-top: 0; }
@@ -278,7 +278,7 @@ section.features .feature-item {
 
 section.cta {
   position: relative;
-  background-image: url("../img/5.jpg");
+  background-image: url("../img/2.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
