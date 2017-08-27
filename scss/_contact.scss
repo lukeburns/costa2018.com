@@ -9,7 +9,10 @@ section.contact {
         }
     }
     #donate {
+      border-top: 1px solid $theme-tertiary;
+      margin-top: 20px;
       padding: 20px;
+      font-size: .5em;
     }
     ul.list-social {
         margin-bottom: 0;
@@ -52,6 +55,14 @@ section.contact {
                     background-color: $brand-facebook;
                     &:hover {
                         background-color: darken($brand-facebook, 5%);
+                    }
+                }
+            }
+            &.social-youtube {
+                a {
+                    background-color: $brand-youtube;
+                    &:hover {
+                        background-color: darken($brand-youtube, 5%);
                     }
                 }
             }

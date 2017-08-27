@@ -312,7 +312,10 @@ section.contact {
     section.contact h2 i {
       color: #dd4b39; }
   section.contact #donate {
-    padding: 20px; }
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: .5em; }
   section.contact ul.list-social {
     margin-bottom: 0; }
     section.contact ul.list-social li a {
@@ -339,6 +342,10 @@ section.contact {
       background-color: #3b5998; }
       section.contact ul.list-social li.social-facebook a:hover {
         background-color: #344e86; }
+    section.contact ul.list-social li.social-youtube a {
+      background-color: #e8261e; }
+      section.contact ul.list-social li.social-youtube a:hover {
+        background-color: #d71e16; }
     section.contact ul.list-social li.social-google-plus a {
       background-color: #dd4b39; }
       section.contact ul.list-social li.social-google-plus a:hover {
