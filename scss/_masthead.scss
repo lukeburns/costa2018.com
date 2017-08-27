@@ -11,7 +11,8 @@ header.masthead {
     background: url('../img/5.jpg'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: url('../img/5.jpg'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background-size: cover;
-    background-position: 0 50px;
+    background-repeat: no-repeat;
+    background-position: center;
     .header-content {
         max-width: 500px;
         margin-bottom: 100px;
@@ -29,12 +30,14 @@ header.masthead {
             border-radius: 3px;
         }
     }
+    @media (max-width: 690px) {
+      background-position: -70px 50px;
+    }
     @media (min-width: 992px) {
         height: 100vh;
         min-height: 600px;
         padding-top: 0;
         padding-bottom: 0;
-        background-position: inherit;
         .header-content {
             margin-bottom: 0;
 

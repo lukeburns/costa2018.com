@@ -192,7 +192,8 @@ header.masthead {
   background: url("../img/5.jpg"), -webkit-linear-gradient(to left, #f7eff3, #dddddd);
   background: url("../img/5.jpg"), linear-gradient(to left, #f7eff3, #dddddd);
   background-size: cover;
-  background-position: 0 50px; }
+  background-repeat: no-repeat;
+  background-position: center; }
   header.masthead .header-content {
     max-width: 500px;
     margin-bottom: 100px;
@@ -205,13 +206,15 @@ header.masthead {
     margin-left: auto; }
     header.masthead .device-container .screen img {
       border-radius: 3px; }
+  @media (max-width: 690px) {
+    header.masthead {
+      background-position: -70px 50px; } }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
       min-height: 600px;
       padding-top: 0;
-      padding-bottom: 0;
-      background-position: inherit; }
+      padding-bottom: 0; }
       header.masthead .header-content {
         margin-bottom: 0;
         text-align: left; }
