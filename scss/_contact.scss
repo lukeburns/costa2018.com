@@ -1,79 +1,11 @@
 // Styling for the download section
 section.contact {
     text-align: center;
-    h2 {
-        margin-top: 0;
-        margin-bottom: 25px;
-        i {
-            color: $brand-google-plus;
-        }
-    }
     #donate {
-      border-top: 1px solid $theme-tertiary;
       margin-top: 20px;
       padding: 20px;
-      font-size: .5em;
-    }
-    ul.list-social {
-        margin-bottom: 0;
-        li {
-            a {
-                font-size: 40px;
-                line-height: 80px;
-                display: block;
-                width: 80px;
-                height: 80px;
-                color: white;
-                border-radius: 100%;
-            }
-            &.social-medium {
-                a {
-                    background-color: $brand-medium;
-                    &:hover {
-                        background-color: darken($brand-medium, 5%);
-                    }
-                }
-            }
-            &.social-twitter {
-                a {
-                    background-color: $brand-twitter;
-                    &:hover {
-                        background-color: darken($brand-twitter, 5%);
-                    }
-                }
-            }
-            &.social-github {
-                a {
-                    background-color: $brand-github;
-                    &:hover {
-                        background-color: darken($brand-github, 5%);
-                    }
-                }
-            }
-            &.social-facebook {
-                a {
-                    background-color: $brand-facebook;
-                    &:hover {
-                        background-color: darken($brand-facebook, 5%);
-                    }
-                }
-            }
-            &.social-youtube {
-                a {
-                    background-color: $brand-youtube;
-                    &:hover {
-                        background-color: darken($brand-youtube, 5%);
-                    }
-                }
-            }
-            &.social-google-plus {
-                a {
-                    background-color: $brand-google-plus;
-                    &:hover {
-                        background-color: darken($brand-google-plus, 5%);
-                    }
-                }
-            }
-        }
+      h4 {
+        margin: 1rem 0
+      }
     }
 }

@@ -245,6 +245,49 @@ section.download {
   @media (min-width: 768px) {
     section.download h2 {
       font-size: 70px; } }
+  section.download h3 {
+    margin: 25px 0; }
+    section.download h3 i {
+      color: #dd4b39; }
+  section.download ul.list-social {
+    text-align: center;
+    margin-bottom: 0; }
+    section.download ul.list-social li a {
+      font-size: 40px;
+      line-height: 80px;
+      display: block;
+      width: 80px;
+      height: 80px;
+      color: white;
+      border-radius: 100%; }
+    section.download ul.list-social li.social-medium a {
+      background-color: #33ea89; }
+      section.download ul.list-social li.social-medium a:hover {
+        background-color: #1ce87c; }
+    section.download ul.list-social li.social-twitter a {
+      background-color: #1da1f2; }
+      section.download ul.list-social li.social-twitter a:hover {
+        background-color: #0d95e8; }
+    section.download ul.list-social li.social-github a {
+      background-color: #000; }
+      section.download ul.list-social li.social-github a:hover {
+        background-color: black; }
+    section.download ul.list-social li.social-facebook a {
+      background-color: #3b5998; }
+      section.download ul.list-social li.social-facebook a:hover {
+        background-color: #344e86; }
+    section.download ul.list-social li.social-youtube a {
+      background-color: #e8261e; }
+      section.download ul.list-social li.social-youtube a:hover {
+        background-color: #d71e16; }
+    section.download ul.list-social li.social-instagram a {
+      background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); }
+      section.download ul.list-social li.social-instagram a:hover {
+        background-color: #d73925; }
+    section.download ul.list-social li.social-google-plus a {
+      background-color: #dd4b39; }
+      section.download ul.list-social li.social-google-plus a:hover {
+        background-color: #d73925; }
 
 section.features .section-heading {
   margin-bottom: 100px; }
@@ -309,50 +352,11 @@ section.cta {
 
 section.contact {
   text-align: center; }
-  section.contact h2 {
-    margin-top: 0;
-    margin-bottom: 25px; }
-    section.contact h2 i {
-      color: #dd4b39; }
   section.contact #donate {
-    border-top: 1px solid #dddddd;
     margin-top: 20px;
-    padding: 20px;
-    font-size: .5em; }
-  section.contact ul.list-social {
-    margin-bottom: 0; }
-    section.contact ul.list-social li a {
-      font-size: 40px;
-      line-height: 80px;
-      display: block;
-      width: 80px;
-      height: 80px;
-      color: white;
-      border-radius: 100%; }
-    section.contact ul.list-social li.social-medium a {
-      background-color: #33ea89; }
-      section.contact ul.list-social li.social-medium a:hover {
-        background-color: #1ce87c; }
-    section.contact ul.list-social li.social-twitter a {
-      background-color: #1da1f2; }
-      section.contact ul.list-social li.social-twitter a:hover {
-        background-color: #0d95e8; }
-    section.contact ul.list-social li.social-github a {
-      background-color: #000; }
-      section.contact ul.list-social li.social-github a:hover {
-        background-color: black; }
-    section.contact ul.list-social li.social-facebook a {
-      background-color: #3b5998; }
-      section.contact ul.list-social li.social-facebook a:hover {
-        background-color: #344e86; }
-    section.contact ul.list-social li.social-youtube a {
-      background-color: #e8261e; }
-      section.contact ul.list-social li.social-youtube a:hover {
-        background-color: #d71e16; }
-    section.contact ul.list-social li.social-google-plus a {
-      background-color: #dd4b39; }
-      section.contact ul.list-social li.social-google-plus a:hover {
-        background-color: #d73925; }
+    padding: 20px; }
+    section.contact #donate h4 {
+      margin: 1rem 0; }
 
 footer {
   padding: 25px 0;

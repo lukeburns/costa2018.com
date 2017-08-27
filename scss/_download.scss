@@ -30,4 +30,81 @@ section.download {
             font-size: 70px;
         }
     }
+    h3 {
+        margin: 25px 0;
+        i {
+            color: $brand-google-plus;
+        }
+    }
+    ul.list-social {
+        text-align: center;
+        margin-bottom: 0;
+        li {
+            a {
+                font-size: 40px;
+                line-height: 80px;
+                display: block;
+                width: 80px;
+                height: 80px;
+                color: white;
+                border-radius: 100%;
+            }
+            &.social-medium {
+                a {
+                    background-color: $brand-medium;
+                    &:hover {
+                        background-color: darken($brand-medium, 5%);
+                    }
+                }
+            }
+            &.social-twitter {
+                a {
+                    background-color: $brand-twitter;
+                    &:hover {
+                        background-color: darken($brand-twitter, 5%);
+                    }
+                }
+            }
+            &.social-github {
+                a {
+                    background-color: $brand-github;
+                    &:hover {
+                        background-color: darken($brand-github, 5%);
+                    }
+                }
+            }
+            &.social-facebook {
+                a {
+                    background-color: $brand-facebook;
+                    &:hover {
+                        background-color: darken($brand-facebook, 5%);
+                    }
+                }
+            }
+            &.social-youtube {
+                a {
+                    background-color: $brand-youtube;
+                    &:hover {
+                        background-color: darken($brand-youtube, 5%);
+                    }
+                }
+            }
+            &.social-instagram {
+              a {
+                background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+                &:hover {
+                    background-color: darken($brand-google-plus, 5%);
+                }
+              }
+            }
+            &.social-google-plus {
+                a {
+                    background-color: $brand-google-plus;
+                    &:hover {
+                        background-color: darken($brand-google-plus, 5%);
+                    }
+                }
+            }
+        }
+    }
 }
