@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px; }
 
@@ -115,7 +115,7 @@ section {
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
@@ -124,13 +124,13 @@ section {
     background-repeat: no-repeat;
     background-position: 0 1.4em;
     color: black;
-    font-weight: 100;
     font-size: 1.2em;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 100 !important;
+    font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
     #mainNav .navbar-brand strong {
-      font-weight: 500; }
+      font-weight: 400; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #1a1a1a; }
   #mainNav .navbar-toggler {
@@ -166,7 +166,7 @@ section {
         background-position: 0 1.4em;
         font-size: 1.5em;
         color: white;
-        font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+        font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
         font-weight: 200;
         letter-spacing: 1px; }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -332,7 +332,7 @@ section.features .feature-item {
 section.cta {
   position: relative;
   background-image: url("../img/2.png");
-  background-position: center;
+  background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

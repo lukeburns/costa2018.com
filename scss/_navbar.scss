@@ -15,10 +15,10 @@
         background-position: 0 1.4em;
         color: black;
         // width: 100px;
-        font-weight: 100;
         font-size: 1.2em;
+        font-weight: 100 !important;
         strong {
-          font-weight: 500;
+          font-weight: 400;
         }
         @include heading-font;
         &:hover,
