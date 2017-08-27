@@ -4,13 +4,22 @@
     background-color: white;
     @include transition-all;
     @include heading-font;
-    .container {
-      background: url('../img/score.png') no-repeat bottom left;
-      background-size: 125px;
-      background-position: -20px 30px;
-    }
     .navbar-brand {
+        // background: url('../img/logo.png');
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: contain;
+        background: url('../img/score.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 1.4em;
         color: black;
+        // width: 100px;
+        font-weight: 100;
+        font-size: 1.2em;
+        strong {
+          font-weight: 500;
+        }
         @include heading-font;
         &:hover,
         &:focus {
@@ -51,6 +60,16 @@
           background-position: 0 30px;
         }
         .navbar-brand {
+            // background: url('../img/logo-negative.png');
+            // background-repeat: no-repeat;
+            // background-position: center;
+            // background-size: contain;
+            // width: 150px;
+            background: url('../img/score.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 0 1.4em;
+            font-size: 1.5em;
             color: white;
             @include heading-font;
             &:hover,
@@ -69,11 +88,11 @@
             border-color: fade-out($gray-darker, .9);
             background-color: white;
             .navbar-brand {
-                color: black;
-                &:hover,
-                &:focus {
-                    color: lighten(black, 10%);
-                }
+              // background: url('../img/logo.png');
+              // background-repeat: no-repeat;
+              // background-position: center;
+              // background-size: contain;
+              color: black;
             }
             .navbar-nav > li > a,
             .navbar-nav > li > a:focus {

@@ -118,15 +118,19 @@ section {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px; }
-  #mainNav .container {
-    background: url("../img/score.png") no-repeat bottom left;
-    background-size: 125px;
-    background-position: -20px 30px; }
   #mainNav .navbar-brand {
+    background: url("../img/score.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 1.4em;
     color: black;
+    font-weight: 100;
+    font-size: 1.2em;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px; }
+    #mainNav .navbar-brand strong {
+      font-weight: 500; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #1a1a1a; }
   #mainNav .navbar-toggler {
@@ -156,6 +160,11 @@ section {
       #mainNav .container {
         background-position: 0 30px; }
       #mainNav .navbar-brand {
+        background: url("../img/score.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 1.4em;
+        font-size: 1.5em;
         color: white;
         font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
         font-weight: 200;
@@ -173,8 +182,6 @@ section {
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           color: black; }
-          #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-            color: #1a1a1a; }
         #mainNav.navbar-shrink .navbar-nav > li > a,
         #mainNav.navbar-shrink .navbar-nav > li > a:focus {
           color: #222222; }
