@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 1px; }
 
 p {
@@ -116,7 +116,7 @@ section {
   -moz-transition: all .35s;
   transition: all .35s;
   font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
     background: url("../img/score.png");
@@ -127,7 +127,7 @@ section {
     font-size: 1.2em;
     font-weight: 100 !important;
     font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px; }
     #mainNav .navbar-brand strong {
       font-weight: 400; }
@@ -167,7 +167,7 @@ section {
         font-size: 1.5em;
         color: white;
         font-family: 'Fira Sans', 'Helvetica', 'Arial', 'sans-serif';
-        font-weight: 200;
+        font-weight: 300;
         letter-spacing: 1px; }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: #f9fbfc; }
