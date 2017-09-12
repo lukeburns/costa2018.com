@@ -251,7 +251,9 @@ section.download {
         margin-bottom: 0; } }
   @media (min-width: 768px) {
     section.download h2 {
-      font-size: 70px; } }
+      font-size: 70px; }
+    section.download ul.list-social .break {
+      display: none; } }
   section.download h3 {
     margin: 25px 0; }
     section.download h3 i {
