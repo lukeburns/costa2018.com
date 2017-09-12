@@ -1,11 +1,20 @@
 // Styling for the download section
 section.contact {
     text-align: center;
+    h3 {
+      margin: .5rem 0;
+    }
+    a {
+      color: darken($brand-medium, 10%);
+    }
     #donate {
       margin-top: 20px;
       padding: 20px;
+      a {
+        color: white;
+      }
       h4 {
-        margin: 1rem 0
+        margin: 1rem 0;
       }
     }
 }

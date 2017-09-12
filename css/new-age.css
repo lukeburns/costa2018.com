@@ -344,8 +344,10 @@ section.cta {
       font-size: 50px;
       max-width: 450px;
       margin-top: 0;
-      margin-bottom: 25px;
       color: white; }
+    section.cta .cta-content h3 {
+      color: white;
+      font-weight: 400; }
     @media (min-width: 768px) {
       section.cta .cta-content h2 {
         font-size: 80px; } }
@@ -359,9 +361,15 @@ section.cta {
 
 section.contact {
   text-align: center; }
+  section.contact h3 {
+    margin: .5rem 0; }
+  section.contact a {
+    color: #16d46f; }
   section.contact #donate {
     margin-top: 20px;
     padding: 20px; }
+    section.contact #donate a {
+      color: white; }
     section.contact #donate h4 {
       margin: 1rem 0; }
 
