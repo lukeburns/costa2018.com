@@ -367,6 +367,12 @@ section.contact {
     margin: .5rem 0; }
   section.contact a {
     color: #007bff; }
+  section.contact #map {
+    margin-top: 20px; }
+    section.contact #map h3 {
+      font-size: 1.75rem; }
+    section.contact #map img {
+      width: 100%; }
   section.contact #donate {
     margin-top: 20px;
     padding: 20px; }

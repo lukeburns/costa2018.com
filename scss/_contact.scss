@@ -1,4 +1,4 @@
-// Styling for the download section
+// Styling for the contact section
 section.contact {
     text-align: center;
     h3 {
@@ -6,6 +6,15 @@ section.contact {
     }
     a {
       color: #007bff;
+    }
+    #map {
+      margin-top: 20px;
+      h3 {
+        font-size: 1.75rem;
+      }
+      img {
+        width: 100%;
+      }
     }
     #donate {
       margin-top: 20px;
@@ -18,3 +27,4 @@ section.contact {
       }
     }
 }
+
